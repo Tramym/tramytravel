@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+.Header {
+	width: 100%;
+/*	background: blue;*/
+	padding: 50px 0;
+	position: absolute;
+	z-index: 10;
+}
+.cotainer {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.logo {
+/*	background: grey;*/
+	width: 10%;
+}
+.logo a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	 font-family: 'Montserrat', sans-serif;
+}
+.nav {
+/*	background: red;*/
+	width: 80%;
+}
+.nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	height: 100%;
+}
+.nav ul li {
+	margin: 0 20px;
+}
+.nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	 font-family: 'Montserrat', sans-serif;
+}
+.banner {
+	width: 100%;
+	height: 100vh;
+}
+.banner video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-box {
+/*	background: red;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1 {
+	color: white;
+	font-size: 45px;
+	letter-spacing:2px;
+	margin: 50px 0;
+	text-transform: uppercase;
+}
+.text-box a {
+	color: white;
+    text-align: none;
+    text-decoration: none;
+	padding: 15px 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+.text-box a:hover {
+	color: black;
+	background: white;
+}
+.icon {
+/*	background: black;*/
+	width: 10%;
+}
+.icon a {
+	margin: 0 5px;
+	color: white;
+	font-size: 18px;
+}
+.box {
+/*	background: red;*/
+	width: 50%;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+.box h1 {
+	text-align: center;
+	text-transform: uppercase;
+		color: white;
+	 font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.box-con p {
+	text-align: center;
+		color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.box-con {
+	width: 50%;
+/*	background: blue;*/
+	position: absolute;
+	top: 23%;
+}
+.sel-3 {
+	width: 100%;
+	height: 100vh;
+	background:#232323;
+	position: relative;
+}
+.box-a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.one {
+	width: 20%;
+	height: 60%;
+	background:#3F3F3F;
+	position: absolute;
+	top: 40%;
+	left: 28%;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.two {
+	width: 20%;
+	height: 60%;
+	background:#3F3F3F;
+	position: absolute;
+	top: 40%;
+	left: 4%;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.three {
+	width: 20%;
+	height: 60%;
+	background:#3F3F3F;
+	position: absolute;
+	top: 40%;
+	left: 52%;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.threee {
+	width: 20%;
+	height: 60%;
+	background:#3F3F3F;
+	position: absolute;
+	top: 40%;
+	left: 76%;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.threee img {
+	width: 100%;
+	height: 100%;
+	background-image: cover;
+	opacity: 0.7;
+}
+.three img {
+	width: 100%;
+	height: 100%;
+	background-image: cover;
+	opacity: 0.7;
+}
+.two img {
+	width: 100%;
+	height: 100%;
+	background-image: cover;
+	opacity: 0.7;
+}
+.one img {
+	width: 100%;
+	height: 100%;
+	background-image: cover;
+	opacity: 0.7;
+}
+.four {
+	width: 50%;
+	 position: absolute;
+    top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: center;
+/*	background: red;*/
+}
+.four h1 {
+ text-transform: uppercase;
+color: white;
+	text-align:center;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.four p {
+	color: white;
+	text-align: center;
+	margin-top: -40px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.five {
+	width: 50%;
+	 position: absolute;
+    top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: center;
+/*	background: red;*/
+}
+.five h1 {
+ text-transform: uppercase;
+color: white;
+	text-align:center;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.five p {
+	color: white;
+	text-align: center;
+	margin-top: -40px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.six {
+	width: 50%;
+	 position: absolute;
+    top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: center;
+/*	background: red;*/
+}
+.six h1 {
+ text-transform: uppercase;
+color: white;
+	text-align:center;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.six p {
+	color: white;
+	text-align: center;
+	margin-top: -40px;
+	font-size: 15px;
+	 font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.sixx {
+	width: 50%;
+	 position: absolute;
+    top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+text-align: center;
+/*	background: red;*/
+}
+.sixx h1 {
+ text-transform: uppercase;
+color: white;
+	text-align:center;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.sixx p {
+	color: white;
+	text-align: center;
+	margin-top: -40px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.sel-2 {
+	background: #232323;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+.bannerr {
+	width: 60%;
+}
+.chuachu {
+	width: 40%;
+}
+.bannerr img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.chuachua {
+/*	background: blue;*/
+	width: 25%;
+	height: 30%;
+	position: absolute;
+	top: 35%;
+	left: 68%;
+}
+.chuachua h1 {
+color: white;
+	text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.chuachua p {
+	color: white;
+	margin-top: 40px;
+font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.sel-4 {
+	width: 100%;
+	height: 100vh;
+	background: #232323;
+	padding-top: 50px;
+	position: relative;
+}
+.sel-4 img {
+	width: 100%;
+	height: 100vh;
+}
+.chune {
+	width: 60%;
+/*	background: red;*/
+	position: absolute;
+	top: 20%;
+	left: 18%;
+}
+.chune h1 {
+	text-align:center;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.chune p {
+	text-align:center;
+	color: white;
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.iconn {
+	width: 100%;
+	height: 30%;
+	margin: 0 auto;
+	position: absolute;
+	top:50%;
+}
+.iconn a {
+	font-size: 55px;
+	color: white;
+	margin: 0 195px;
+	font-weight: lighter;
+}
+.chuanha {
+/*	background: blue;*/
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 10;
+	top: 60%;
+}
+.chu1 {
+	width:25%;
+	height: 80%;
+/*	background: red;*/
+	margin: 0 100px;
+	text-align: center;
+	color: white;
+}
+.chu1 h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.chu1 p {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.sel-5 {
+	width: 100%;
+	background: #232323;
+	padding: 130px 0;
+}
+.text {
+	width: 60%;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.text h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+.text form {
+	margin-top: 50px;
+	text-align: center;
+}
+input {
+	height: 40px;
+	width: 70%;
+	box-sizing: border-box;
+	padding-left: 8px;
+	outline: none;
+	border-color: #C1C1C1;
+	border-radius: 4px;
+	border-width: 1px;
+	font-family: 'Montserrat', sans-serif;
+}
+button {
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	background: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+.logo:hover {
+    opacity: 0.8;
+}
+.nav ul li a:hover{
+    opacity: 0.8;
+	}
+.icon a:hover {
+	opacity: 0.8;
+}
+.one:hover {
+	background: #131313;
+	color: white;
+}
+.two:hover {
+	background: #131313;
+	color: white;
+}
+.three:hover {
+	background: #131313;
+	color: white;
+}
+.threee:hover {
+	background: #131313;
+	color: white;
+}
+.Footer {
+	padding: 60px 0;
+	background: #2B2B2B;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+.iicon {
+	width: 20%;
+/*	background: pink;*/
+	margin: 0 auto;
+	position: absolute;
+	left: 42%;
+}
+.iicon a {
+	color: white;
+	font-size: 18px;
+/*	margin: 0 10px;*/
+	padding: 0 20px;
+}
+.chuu {
+	width: 25%;
+/*	background: red;*/
+	padding: 0 40px;
+}
+.chuu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	 font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	
+}
+.chuuu {
+	width: 20%;
+/*	background: blue;*/
+	position: absolute;
+	left: 80%;
+}
+.chuuu p {
+	color: white;
+	 font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	
+}
